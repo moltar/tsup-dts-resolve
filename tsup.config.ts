@@ -9,6 +9,11 @@ export default defineConfig({
     "banner": "// test",
     "resolve": true,
   },
+
+  // Always bundle modules matching given patterns
+  // Also does not help
+  "noExternal": ["@changesets/types"],
+
   "tsconfig": "tsconfig.json",
   "outDir": "lib",
 })
