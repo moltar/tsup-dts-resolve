@@ -1,7 +1,7 @@
-import type { Format } from 'tsup'
+import type { DependencyType } from '@changesets/types'
 
 // This should resolve and inline the config, I presume?
-export type MyFormat = Format
+export type MyDependencyType = DependencyType
 
 // Will using the type resolve it?
-export const config: MyFormat = 'esm'
+export const config: MyDependencyType = 'dependencies'

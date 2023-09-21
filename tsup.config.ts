@@ -12,7 +12,7 @@ export default defineConfig({
 
   // Always bundle modules matching given patterns
   // Also does not help
-  "noExternal": ["tsup"],
+  "noExternal": ["@changesets/types"],
 
   "tsconfig": "tsconfig.json",
   "outDir": "lib",

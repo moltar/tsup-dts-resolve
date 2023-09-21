@@ -1,7 +1,7 @@
 // test
-type Format = 'cjs' | 'esm' | 'iife';
+import { DependencyType } from '@changesets/types';
 
-type MyFormat = Format;
-declare const config: MyFormat;
+type MyDependencyType = DependencyType;
+declare const config: MyDependencyType;
 
-export { MyFormat, config };
+export { MyDependencyType, config };
