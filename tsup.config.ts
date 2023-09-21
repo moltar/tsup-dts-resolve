@@ -6,6 +6,7 @@ export default defineConfig({
     "src/index.ts"
   ],
   "dts": {
+    "banner": "// test",
     "resolve": true,
   },
   "tsconfig": "tsconfig.json",
