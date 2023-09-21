@@ -7,7 +7,7 @@ export default defineConfig({
   ],
   "dts": {
     "banner": "// test",
-    "resolve": false,
+    "resolve": true,
   },
 
   // Always bundle modules matching given patterns
