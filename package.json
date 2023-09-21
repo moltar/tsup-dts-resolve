@@ -1,15 +1,11 @@
 {
   "name": "tsup-dts-resolve",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsup",
     "postbuild": "cat lib/index.d.ts"
   },
-  "keywords": [],
-  "author": "Roman Filippov",
-  "license": "ISC",
   "devDependencies": {
     "@changesets/types": "5.2.1",
     "@types/node": "16.18.53",
