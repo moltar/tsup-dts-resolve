@@ -1,9 +1,7 @@
-import type { WrittenConfig } from '@changesets/types'
+import type { Format } from 'tsup'
 
 // This should resolve and inline the config, I presume?
-export type MyWrittenConfig = WrittenConfig
+export type MyFormat = Format
 
 // Will using the type resolve it?
-export const config: MyWrittenConfig = {
-  baseBranch: 'main',
-}
+export const config: MyFormat = 'esm'

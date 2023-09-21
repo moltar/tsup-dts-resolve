@@ -1,7 +1,7 @@
 // test
-import { WrittenConfig } from '@changesets/types';
+import { Format } from 'tsup';
 
-type MyWrittenConfig = WrittenConfig;
-declare const config: MyWrittenConfig;
+type MyFormat = Format;
+declare const config: MyFormat;
 
-export { MyWrittenConfig, config };
+export { MyFormat, config };
