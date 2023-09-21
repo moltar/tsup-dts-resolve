@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup"
   },
   "keywords": [],
   "author": "Roman Filippov",
   "license": "ISC",
   "devDependencies": {
     "@changesets/types": "5.2.1",
-    "tsup": "7.2.0"
+    "@types/node": "16.18.53",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2"
   }
 }
