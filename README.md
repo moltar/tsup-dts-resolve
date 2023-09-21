@@ -6,10 +6,6 @@ See `src/index.ts` file, which is simply exporting the types from an external pa
 
 Build:
 
-```sh
-npm run build
-```
-
 ```plain
 $> npm run build
 
