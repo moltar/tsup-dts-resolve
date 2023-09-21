@@ -1,7 +1,7 @@
 // test
-import { Config } from '@changesets/types';
+import { WrittenConfig } from '@changesets/types';
 
-type BaseBranch = Config['baseBranch'];
-declare const foo: BaseBranch;
+type MyWrittenConfig = WrittenConfig;
+declare const config: MyWrittenConfig;
 
-export { BaseBranch, foo };
+export { MyWrittenConfig, config };

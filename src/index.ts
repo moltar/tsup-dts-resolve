@@ -1,5 +1,9 @@
-import type { Config } from '@changesets/types'
+import type { WrittenConfig } from '@changesets/types'
 
-export type BaseBranch = Config['baseBranch']
+// This should resolve and inline the config, I presume?
+export type MyWrittenConfig = WrittenConfig
 
-export const foo: BaseBranch = 'main'
+// Will using the type resolve it?
+export const config: MyWrittenConfig = {
+  baseBranch: 'main',
+}
