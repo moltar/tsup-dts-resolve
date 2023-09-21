@@ -7,9 +7,5 @@ See `src/index.ts` file, which is simply exporting the types from an external pa
 Build:
 
 ```sh
-## uses tsup
-npm build
-
-## Still importing the types from an external package
-grep "@changesets/types" lib/index.d.ts
+npm run build
 ```

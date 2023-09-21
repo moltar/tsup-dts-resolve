@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "postbuild": "cat lib/index.d.ts"
   },
   "keywords": [],
   "author": "Roman Filippov",
